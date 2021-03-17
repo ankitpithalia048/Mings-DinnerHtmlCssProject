@@ -1,0 +1,209 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 7% 25%;
+}
+
+.colored-section {
+    background-color: #d86464;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    padding: 0 0 4.5rem;
+    padding-top: 2rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+
+
+/* Heading */
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title */
+#title {
+    background-color: #d86464;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 5% 10% 7%;
+}
+
+/* Title Image */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.logo {
+    width: 20%;
+    height: 10%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    .big-heading {
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 0rem;
+    }
+
+}
+
+/* About Us */
+.section-heading {
+    padding-top: 3rem;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+    .section-heading {
+        padding-top: 3rem;
+        font-size: 2rem;
+        line-height: 1.5;
+    }}
+
+    /* footer section */
+    footer {
+
+        background-color: rgb(49, 49, 49);
+        padding: 1em 1em;
+        color: rgb(82, 82, 82);
+        text-align: center;
+    }
+
+
+    /* Cards */
+    .row .card {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .row .card-section {
+        padding-right: 20%;
+    }
+
+    /* Float four columns side by side */
+    .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+    }
+
+    /* Remove extra left and right margins, due to padding */
+    .row {
+        margin: 0 -2px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Responsive columns */
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+
+    /* Style the counter cards */
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: left;
+        background-color: #f1f1f1;
+    }
+
+
+    /* Testimonial */
+    #testimonials {
+        background-color: #d86464;
+
+    }
+
+    .testimonial-image {
+        width: 10%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+    @media (max-width:900px){
+        #testimonials {
+            background-color: #d86464;
+            
+
+        }
+        .testimonial-text {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+        .testimonial-image {
+            width: 30%;
+            border-radius: 100%;
+            margin: 20px;
+        }
+    }
